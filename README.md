@@ -1,29 +1,34 @@
-# DevClub — DEV CORE Experience
+# DEV CORE — Interactive Developer Experience
 
-Uma experiência institucional interativa que transforma a jornada de formação de um desenvolvedor em narrativa visual.
+Experiência web interativa construída com Next.js, TypeScript, GSAP e Canvas 2D, explorando storytelling baseado em scroll, física de partículas, acessibilidade e otimização de renderização.
 
 🚀 **[Acessar a experiência ao vivo](https://devclub-experience-one.vercel.app/)**
 
 - **Live Demo:** [devclub-experience-one.vercel.app](https://devclub-experience-one.vercel.app/)
 - **GitHub:** [github.com/joaodionizio/devclub-experience](https://github.com/joaodionizio/devclub-experience)
 
+> O projeto nasceu a partir de um desafio técnico do DevClub e foi mantido como um case autoral de creative development, interação e engenharia de frontend.
+
+## O que este projeto demonstra
+
+- Next.js com App Router e geração estática
+- TypeScript aplicado a componentes e motor visual
+- Canvas 2D com milhares de partículas
+- Animações coordenadas com GSAP e ScrollTrigger
+- Scroll suave com Lenis
+- Responsividade e acessibilidade
+- Otimizações de performance e ciclo de vida de animações
+- Organização de uma experiência visual complexa em componentes reutilizáveis
+
 ## Sobre o projeto
 
-**DEV CORE** é uma releitura da experiência institucional do DevClub. Em vez de seguir a estrutura convencional de uma landing page, o projeto conduz a pessoa por uma jornada visual ligada à evolução na carreira:
+**DEV CORE** transforma a jornada de formação de um desenvolvedor em uma narrativa visual interativa.
+
+Em vez de seguir a estrutura convencional de uma landing page, a experiência conduz a pessoa por uma sequência:
 
 **Descobrir → escolher uma formação → construir → evoluir → provar o trabalho → conectar-se ao mercado**
 
 O núcleo visual acompanha oito cenas e muda de estado durante a rolagem — manifesto, stack, jornada, plataforma, projetos, mercado e comunidade — antes de abrir o **Deep System**, que detalha o conteúdo em interfaces inspiradas em sistemas, terminais e dashboards.
-
-## O desafio
-
-O projeto foi desenvolvido para um desafio técnico do DevClub, com atenção especial aos aspectos centrais da proposta:
-
-- impacto visual e originalidade;
-- animações e microinterações;
-- qualidade, organização e manutenção do código.
-
-A solução busca equilibrar expressão visual e implementação técnica sem depender de uma composição tradicional de blocos estáticos.
 
 ## Destaques da experiência
 
@@ -110,10 +115,6 @@ Não são declarados resultados de Lighthouse, FPS, Web Vitals ou cobertura porq
 - elementos puramente visuais marcados com `aria-hidden`;
 - suporte a `prefers-reduced-motion`, incluindo boot imediato, Canvas estático e redução das animações.
 
-## Responsividade
-
-A experiência mantém a mesma narrativa em desktop e mobile, com reorganização dos grids, menus, painéis e controles. Em telas menores, o palco visual é redimensionado ou reposicionado, componentes passam para uma ou duas colunas e elementos secundários são simplificados quando necessário.
-
 ## Estrutura do projeto
 
 ```text
@@ -170,6 +171,7 @@ npm run start
 ```bash
 npm run lint
 npx tsc --noEmit
+npm run build
 ```
 
 ## Uso de inteligência artificial
@@ -178,7 +180,7 @@ Ferramentas de inteligência artificial foram utilizadas como apoio em etapas de
 
 ## Conteúdo conceitual
 
-Este projeto é uma peça conceitual criada para um desafio técnico e não representa um canal oficial do DevClub. Algumas métricas, depoimentos, números e informações institucionais são demonstrativos e não devem ser interpretados como dados oficiais sem validação da organização.
+Este projeto é uma peça conceitual criada originalmente a partir de um desafio técnico e não representa um canal oficial do DevClub. Algumas métricas, depoimentos, números e informações institucionais são demonstrativos e não devem ser interpretados como dados oficiais sem validação da organização.
 
 ## Melhorias futuras
 
